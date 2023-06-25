@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="image/faviocne.png" type="image/png">
+    <script src="https://kit.fontawesome.com/e62a43b904.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header section -->
+    <section>
+        <div class="header" id="header">
+            <nav>
+                <div class="logo"><span>D</span>ola.</div>
+                <div class="nav">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <span><a class="main-btn" href="#home">Hire me</a></span>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i onclick="showmenu()" class="fa-solid fa-bars"></i>
+                </div>
+
+            </nav>
+            <div class="main">
+                <h6>WELCOME TO MY WORLD</h6>
+                <h1>Hi, I'm Dola <br><span>Front-end Developer.</span> <br>based in BD.</h1>
+                <div class="mainbtn"><span><a class="main-btn" href="image/Dola .cv.pdf" download="">Download
+                            CV</a></span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- about section -->
+    <section>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="image/dola.about-removebg-preview.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1>About Me</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem reprehenderit asperiores
+                            praesentium quisquam atque magnam at soluta! Quasi, corporis aliquam incidunt ut rem
+                            laboriosam ratione. Laborum nisi cum facere tempora.</p>
+                        <div class="about-nav">
+                            <p id="prob" class="link active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="link" onclick="opentab('experience')">Experience</p>
+                            <p class="link" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-container active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX </span> <br>Designing web/app interface</li>
+                                <li><span>Web Development</span> <br>Web app development</li>
+                                <li><span>App Development</span> <br>Building androied apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-container" id="experience">
+                            <ul>
+                                <li><span>2023-Current</span> <br>Web development training at porgramming hero</li>
+                                <li><span>2019</span> <br>Joined programming contest</li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-container" id="education">
+                            <ul>
+                                <li><span>2021-2022</span> <br>M.Sc in CSE at Islamic University</li>
+                                <li><span>2015-2019</span> <br>B.Sc in CSE at MIU</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services section -->
+    <section>
+        <div id="services">
+            <div class="container">
+                <h1>My Services</h1>
+                <div class="service-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, atque, beatae quos
+                            .</p>
+                        <a href="x">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, atque, beatae quos
+                            .</p>
+                        <a href="x">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, atque, beatae quos
+                            .</p>
+                        <a href="x">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Portfolio -->
+    <section id="portfolio">
+        <div class="container">
+            <h1>My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work1.png">
+                    <div class="layer">
+                        <h3>Social media app</h3>
+                        <p>The apps connect you to the talented people to the world.Download it from play list.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work2.png">
+                    <div class="layer">
+                        <h3>Music app</h3>
+                        <p>The apps connect you to the talented people to the world.Download it from play list.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work3.png">
+                    <div class="layer">
+                        <h3>Online shopping app</h3>
+                        <p>The apps connect you to the talented people to the world.Download it from play list.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn" href="#">See more</a>
+        </div>
+    </section>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> dolarani399@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 01785867886</p>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Dola</p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
