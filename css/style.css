@@ -47,7 +47,9 @@
 
  nav .fa-solid {
      display: none;
+     z-index: 10001;
  }
+
 
  .nav li {
      display: inline-block;
